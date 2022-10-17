@@ -6,7 +6,7 @@ import About from '../pages/About';
 import Error from '../pages/Error';
 
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
