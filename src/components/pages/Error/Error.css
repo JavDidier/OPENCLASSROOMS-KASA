@@ -1,0 +1,38 @@
+.div-error {
+    color: #FF6060;
+}
+
+.title-erreur{
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-size: 288px;
+    font-weight: 700;
+}
+
+.text-erreur {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+.linkHome {
+    color: #FF6060;
+    text-decoration: underline;
+}
+
+.linkHome a {
+    font-size: 18px;
+    color: #FF6060;
+      
+}
+
+.linkHome li {
+    margin-top: 182px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.linkHome:hover {
+    font-weight: 500;
+}

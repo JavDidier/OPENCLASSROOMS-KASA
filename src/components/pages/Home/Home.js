@@ -5,6 +5,7 @@ import BannerHome from '../../Banner/BannerHome/BannerHome.js';
 import Thumbs from '../../componentsGenerique/Thumbs/Thumbs.js';
 import Footer from '../../Footer/Footer.js';
 
+// STYLE
 import './Home.css';
 
 function Home() {
