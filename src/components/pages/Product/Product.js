@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../../Header/Navigation/Navigation.js';
 
-const Product = () => {
+function Product() {
     return (
         <div>
             <Navigation />

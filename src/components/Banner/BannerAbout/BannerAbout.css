@@ -1,0 +1,18 @@
+.div-bannerAbout {
+    position: relative;
+}
+
+.div-bannerAbout-image img {
+    border-radius: 25px;
+}
+
+.bannerAbout-overlay {
+    width: 1240px;
+    height: 223px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.3;
+    border-radius: 25px;
+}

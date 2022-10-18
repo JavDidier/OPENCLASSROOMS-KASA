@@ -1,0 +1,48 @@
+.collapse-btn {
+    width: 1023px;
+    text-align: left;
+    background: #FF6060;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px auto;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 47px;
+  }
+
+  .collapse-div {
+    padding-top: 5px;
+  }
+  
+  .collapse-content.collapsed {
+    display: none;
+}
+
+  .collapse-content.expanded {
+    display: block;
+    margin: 0 auto;
+    width: 1023px;
+    height: 100%;
+  }
+
+  .collapse-content.expanded p {
+    margin-top: -5px;
+    background-color: #F7F7F7;
+    color: #FF6060;
+    border-radius: 0 0 5px 5px;
+    padding: 36px 18px 18px 18px;
+    line-height: 34px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .icon-collapse {
+    display: block;
+    float: right;
+  }
