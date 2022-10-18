@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from '../pages/Home';
-import Product from '../pages/Product';
-import About from '../pages/About';
-import Error from '../pages/Error';
+import Home from './pages/Home/Home.js';
+import Product from './pages/Product/Product.js';
+import About from './pages/About/About.js';
+import Error from './pages/Error/Error.js';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="*" element= {<Error />} />
       </Routes>
     </BrowserRouter>
-);
+  );
 };
 
 export default App;

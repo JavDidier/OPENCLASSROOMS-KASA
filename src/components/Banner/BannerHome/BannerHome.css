@@ -1,0 +1,39 @@
+.div-bannerHome {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* IMAGE */
+.div-bannerHome-image img {
+    min-width: 1240px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+/* OVERLAY */
+.bannerHome-overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-color: #000;
+    opacity: 0.3;
+    width: 1240px;
+    height: 223px;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+/* TEXTE */
+.div-bannerHome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #FFF;
+    font-weight: 500;
+    font-size: 48px;
+    z-index: 2;
+    width: 75%;
+}

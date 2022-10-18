@@ -1,7 +1,10 @@
 import React from 'react';
-import logoFooter from '../images/logoFooter.svg';
+import logoFooter from './logoFooter.svg';
 
-const Footer = () => {
+// STYLE
+import './Footer.css';
+
+function Footer() {
 
     return (
         <footer>

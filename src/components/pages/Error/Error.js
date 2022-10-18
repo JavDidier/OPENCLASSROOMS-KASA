@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Navigation from '../../Header/Navigation/Navigation';
 
-const Error = () => {
+function Error() {
     return (
         <div>
             <Navigation />

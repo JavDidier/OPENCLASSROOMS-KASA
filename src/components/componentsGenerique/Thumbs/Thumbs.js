@@ -1,5 +1,8 @@
 import React from 'react';
-import { logements } from '../data/logements.js';
+import { logements } from '../../../assets/data/logements.js';
+
+// STYLE
+import './Thumbs.css';
 
 function Thumbs() {
 
@@ -14,6 +17,7 @@ function Thumbs() {
                     <span className="thumb-title">
                         { logement.title }
                     </span>
+                    <div className="thumb-overlay"></div>
                 </a>
             ))}
 
