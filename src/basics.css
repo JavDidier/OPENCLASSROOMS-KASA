@@ -6,13 +6,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-align: center;
-  width: 1440px;
+  width: 100%;
 }
 
 /* == ROOT == */
 #root {
   margin: 0 auto;
-  max-width: 1440px;
+  width: 100%;
 }
 
 

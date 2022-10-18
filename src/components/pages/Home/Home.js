@@ -9,12 +9,16 @@ import './Home.css';
 
 function Home() {
     return (
-        <div className="home-container">
-            <Header />
-            <BannerHome />
-            <Thumbs />
-            <Footer />
-        </div>
+        <div>
+            <div className="home-container">
+                <Header />
+                <BannerHome />
+                <Thumbs />
+            </div>
+            <div className="container-footer">
+                <Footer />
+            </div> 
+        </div>       
     );
 };
 
