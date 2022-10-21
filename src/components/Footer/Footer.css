@@ -1,17 +1,13 @@
-.container-footer {
-    width: 100%;
-}
 
 footer {
-    margin-top: 40px;
+    margin-top: 43px;
     background-color: #000;
     color: #FFF;
     font-size: 24px;
     height: 209px;
     width: 100%;
+    font-weight: 500;
 }
-
-
 
 footer img {
     margin-top: 66px;

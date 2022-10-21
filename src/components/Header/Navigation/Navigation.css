@@ -3,6 +3,7 @@
     flex-direction: row;
     list-style: none;
     text-decoration: none;
+    height: 34px;
 }
 
 .div-navigation a:first-child {
@@ -48,5 +49,36 @@
     to {
         width: 100%;
     }
+}
+
+
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 375px) and (max-width: 600px) {
+
+    .div-navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-decoration: none;
+        height: 34px;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        width: 140px;
+        height: 17px;
+    }
+
+    .div-navigation a:first-child {
+        margin-right: 10px;
+    }
+
+    .div-navigation a {
+        font-size: 12px;
+        text-transform: uppercase;
+        
+    }
+
+
 }
 

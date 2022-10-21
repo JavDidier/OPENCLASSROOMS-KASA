@@ -1,36 +1,42 @@
-import React from 'react';
+import React from "react";
 
 // STYLE
-import './Collapse.css';
+import "./Collapse.css";
 
 // IMG BASE
-import collapseDown from './CollapseDown.png';
+import collapseDown from "./CollapseDown.png";
 
-const Collapse = ({ collapsed, children, textBtn }) => {
-    const [isCollapsed, setIsCollapsed] = React.useState(collapsed);
+const Collapse = (props) => {
+  const [isCollapsed, setIsCollapsed] = React.useState(true);
 
-    textBtn  = "Générique";
+  return (
+    <div className={"container-collapse " + props.className}>
+      {/* <div className={`container-collapse ${props.className}`}> */}
 
-    return (
-    <div className="container-collapse">
-        <button className="collapse-btn">
-            <div className="collapse-div"
-            onClick={() => setIsCollapsed(!isCollapsed)}
-            >
-            {isCollapsed ? true : false} {textBtn}
-            <span className={`icon-collapse ${isCollapsed ? 'collapsed' : 'expanded'}`}>{<img src={collapseDown} alt="" />}</span>
-            </div>
-        </button>
-        
-        <div className={`collapse-content ${isCollapsed ? 'collapsed' : 'expanded'}`}
-          aria-expanded={isCollapsed}
+      <button className="collapse-btn">
+        <div
+          className="collapse-div "
+          onClick={() => setIsCollapsed(!isCollapsed)}
         >
-          {children}
+          {isCollapsed ? true : false} {props.textBtn}
+          <span
+            className={`icon-collapse ${
+              isCollapsed ? "collapsed" : "expanded"
+            }`}
+          >
+            {<img src={collapseDown} alt="" />}
+          </span>
         </div>
+      </button>
+
+      <div
+        className={`collapse-content ${isCollapsed ? "collapsed" : "expanded"}`}
+        aria-expanded={isCollapsed}
+      >
+        <p>{props.children}</p>
+      </div>
     </div>
+  );
+};
 
-    );
-  };
-
-
-  export default Collapse;
+export default Collapse;

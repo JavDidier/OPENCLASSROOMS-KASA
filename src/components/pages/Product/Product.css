@@ -1,0 +1,45 @@
+.product-container {
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+    margin-top: -43px;
+}
+
+#root {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+/* DETAILS PRODUCT */
+.detail-product {
+    text-align: left;
+    color: #FF6060;
+    font-weight: 500;
+}
+.detail-product h2 {
+   font-weight: 500;
+   font-size: 36px;
+   margin-top: 30px;
+   margin-bottom: 0px;
+}
+
+.detail-product p {
+    margin-top: 0px;
+}
+
+.city {
+    margin-bottom: 20px;
+}
+
+/* COLLAPSE PRODUCT */
+.collapse-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+

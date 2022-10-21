@@ -1,4 +1,13 @@
 .home-container {
     margin: 0 auto;
-    width: 1240px;
+    max-width: 1240px;
+    width: 100%;
+}
+
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 375px) and (max-width: 600px) {
+
+    .home-container {
+        min-width: 335px;
+    }
 }
