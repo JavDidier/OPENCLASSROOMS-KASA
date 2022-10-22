@@ -53,7 +53,7 @@
 
 
 /* MEDIA QUERIES SMALL */
-@media all and (min-width: 375px) and (max-width: 600px) {
+/* @media all and (min-width: 375px) and (max-width: 600px) {
 
     .div-navigation {
         display: flex;
@@ -75,10 +75,7 @@
 
     .div-navigation a {
         font-size: 12px;
-        text-transform: uppercase;
-        
+        text-transform: uppercase; 
     }
-
-
-}
+} */
 

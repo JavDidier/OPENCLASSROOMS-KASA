@@ -10,7 +10,7 @@ function Thumbs() {
         <div className="div-thumbs">
 
             {logements.map((logement, index) => (
-                <a className="thumb" href={"/product/" + logement.id} key={`${logement}-${index}`}>
+                <a className="thumb" href={"/housing/" + logement.id} key={`${logement}-${index}`}>
                     <span className="thumb-img">
                         <img src={logement.cover} alt="" />
                     </span>

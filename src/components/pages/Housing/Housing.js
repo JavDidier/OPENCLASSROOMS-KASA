@@ -1,20 +1,20 @@
+// IMPORT UTILS
 import React from 'react';
 import { useParams } from "react-router-dom";
 
-import { logements } from '../../../assets/data/logements.js';
-import Collapse from '../../Collapse/Collapse.js';
-import Tag from '../../componentsGenerique/Tag/Tag.js';
-import Rating from '../../Rating/Rating.js';
-import SlideShow from '../../SlideShow/SlideShow.js';
-
-
-import Error from '../Error/Error.js';
+// IMPORT COMPONENTS
+import { logements }    from '../../../assets/data/logements.js';
+import Collapse         from '../../Collapse/Collapse.js';
+import Tag              from '../../componentsGenerique/Tag/Tag.js';
+import Rating           from '../../Rating/Rating.js';
+import SlideShow        from '../../SlideShow/SlideShow.js';
+import Error            from '../Error/Error.js';
 
 // STYLE
-import './Product.css';
+import './Housing.css';
 
-
-function Product() {
+// COMPONENT PRODUCT
+function Housing() {
     let { id } = useParams();
     let detailsLogement = logements.find((logement) => (logement.id === id)); // Récupérer les données du logement à afficher
     
@@ -24,7 +24,6 @@ function Product() {
         // Récupérer les images dans un tableau
         let imageSlider = detailsLogement.pictures;
 
-        console.log(+detailsLogement.rating);
         return (
             <div className="product-container">
                 <SlideShow imageSlider={imageSlider}/>
@@ -43,7 +42,7 @@ function Product() {
                     </div>
 
                     {/* RIGHT INFOS */}
-                    <div className="details-host">
+                    <div className="right-details detail-product">
                         <div className="container-owner">
                             <p className='owner-name'>{detailsLogement.host.name}</p>
                             <img className='owner-picture' src={detailsLogement.host.picture} alt={"Logement + " + detailsLogement.title}/>
@@ -63,6 +62,6 @@ function Product() {
     } return <Error />
 };
 
-export default Product;
+export default Housing;
 
 
