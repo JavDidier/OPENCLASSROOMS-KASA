@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { logements } from '../../../assets/data/logements.js';
 import Collapse from '../../Collapse/Collapse.js';
 import Tag from '../../componentsGenerique/Tag/Tag.js';
+import Rating from '../../Rating/Rating.js';
 import SlideShow from '../../SlideShow/SlideShow.js';
 
 
@@ -23,6 +24,7 @@ function Product() {
         // Récupérer les images dans un tableau
         let imageSlider = detailsLogement.pictures;
 
+        console.log(+detailsLogement.rating);
         return (
             <div className="product-container">
                 <SlideShow imageSlider={imageSlider}/>
@@ -46,7 +48,7 @@ function Product() {
                             <p className='owner-name'>{detailsLogement.host.name}</p>
                             <img className='owner-picture' src={detailsLogement.host.picture} alt={"Logement + " + detailsLogement.title}/>
                         </div>
-                        <span><p>{detailsLogement.rating}</p></span>
+                        <Rating ratingValue={+detailsLogement.rating} />
                     </div>
 
                 </div>
