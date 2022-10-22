@@ -17,21 +17,6 @@ function Product() {
     let { id } = useParams();
     let detailsLogement = logements.find((logement) => (logement.id === id)); // Récupérer les données du logement à afficher
     
-    /* Convertir le tableau logement en objet
-    - id : OK
-    - title : OK 
-    - cover
-    - pictures [ ]
-    - Description
-    - Host {
-        - rating
-        - location OK
-    - equipements []
-    - tags []
-
-    }
-    */
-
     // Vérifie si le logement est bien trouvé
     if(detailsLogement !== undefined) {
 
@@ -57,9 +42,9 @@ function Product() {
 
                     {/* RIGHT INFOS */}
                     <div className="details-host">
-                        <div className="owner">
-                            <span><p>{detailsLogement.host.name}</p></span>
-                            <span><img src={detailsLogement.host.picture} alt={"Logement + " + detailsLogement.title}/></span>
+                        <div className="container-owner">
+                            <p className='owner-name'>{detailsLogement.host.name}</p>
+                            <img className='owner-picture' src={detailsLogement.host.picture} alt={"Logement + " + detailsLogement.title}/>
                         </div>
                         <span><p>{detailsLogement.rating}</p></span>
                     </div>

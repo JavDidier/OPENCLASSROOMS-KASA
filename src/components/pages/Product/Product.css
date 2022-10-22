@@ -20,8 +20,7 @@
 .detail-product h2 {
    font-weight: 500;
    font-size: 36px;
-   margin-top: 30px;
-   margin-bottom: 0px;
+   margin: 0;
 }
 
 .detail-product p {
@@ -44,6 +43,37 @@
     float: right;
 }
 
+
+.container-infos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-owner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.owner-name {
+    color: #FF6060; 
+    font-size: 18px;
+    width: 93px;
+    height: 52px;
+    margin: 0;
+}
+
+.owner-picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}
 
 
 
