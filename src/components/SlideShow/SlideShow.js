@@ -8,8 +8,8 @@ function SlideShow( { imageSlider } ) {
 
     // Hook useState 
     const [ index, setIndex ] = useState(0);
-    console.log(index);
 
+    // Appuyer sur (suivant)
     function nextSlide() { 
         setIndex((oldIndex) => {
             if(index === imageSlider.length-1) {
@@ -21,11 +21,9 @@ function SlideShow( { imageSlider } ) {
         })
     };
 
+    // Appuyer sur (précédent)
     function previousSlide() {
         setIndex((oldIndex) => {
-            console.log("oldIndex :" + oldIndex);
-            console.log("index : " + index);
-
             if(index <= 0) {
                 oldIndex = (imageSlider.length-1);
             } else {
@@ -36,15 +34,24 @@ function SlideShow( { imageSlider } ) {
         })
     };
 
-    return (
+    // Gérer l'affichage en fonction du nombre de photo pour le slideShow
+    if (imageSlider.length === 1) {
+        return (
+            <div className="slider">
+                <img src={imageSlider[index]} alt="Logement disponible"/> 
+            </div>
+        );
+    } else {
+        return (
+            <div className="slider">
+                <img src={imageSlider[index]} alt="Logement disponible"/> 
+                <button id="precedent" onClick={previousSlide}>{"<"}</button>
+                <button id="suivant" onClick={nextSlide}>{">"}</button>
+                <span className="countImage">{index + 1 + "/" + (imageSlider.length)}</span>
+            </div>
+        )
+    } 
 
-        <div className="slider">
-            <img src={imageSlider[index]} alt=""/> 
-            <button id="precedent" onClick={previousSlide}>{"<"}</button>
-            <button id="suivant" onClick={nextSlide}>{">"}</button>
-            <span className="countImage">{index + 1 + "/" + (imageSlider.length)}</span>
-        </div>
-    );
 }
 
 export default SlideShow;

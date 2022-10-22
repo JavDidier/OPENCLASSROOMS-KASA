@@ -40,6 +40,10 @@
     align-items: flex-start;
 }
 
+.right-details {
+    float: right;
+}
+
 
 
 

@@ -41,13 +41,31 @@ function Product() {
         return (
             <div className="product-container">
                 <SlideShow imageSlider={imageSlider}/>
-                <div className="detail-product">
-                    <h2>{detailsLogement.title}</h2>
-                    <p className='city'>{detailsLogement.location}</p>
-                    <div className='tag'>
-                    {detailsLogement.tags.map((item) => <Tag key={item} props={item}></Tag> )}
+
+
+                {/* CONTAINER INFOS */}
+                <div className="container-infos">
+
+                    {/* LEFT INFOS */}
+                    <div className="left-details detail-product">
+                        <h2>{detailsLogement.title}</h2>
+                        <p className='city'>{detailsLogement.location}</p>
+                        <div className='tag'>
+                        {detailsLogement.tags.map((item) => <Tag key={item} props={item}></Tag> )}
+                        </div>
                     </div>
+
+                    {/* RIGHT INFOS */}
+                    <div className="details-host">
+                        <div className="owner">
+                            <span><p>{detailsLogement.host.name}</p></span>
+                            <span><img src={detailsLogement.host.picture} alt={"Logement + " + detailsLogement.title}/></span>
+                        </div>
+                        <span><p>{detailsLogement.rating}</p></span>
+                    </div>
+
                 </div>
+
                 <div className="collapse-product">
                     <Collapse className="test" textBtn={"Description"} children={detailsLogement.description}/>
                     <Collapse className="test" textBtn={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
