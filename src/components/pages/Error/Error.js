@@ -1,10 +1,12 @@
+// IMPORT UTILS
 import React from 'react';
+import { NavLink } from 'react-router-dom'; // pour utiliser les NavLink
 
-import { NavLink } from 'react-router-dom';
-
-//STYLE
+// IMPORT STYLE
 import './Error.css';
 
+
+// COMPONENT ERROR
 function Error() {
     return (
         <div className='div-error'>

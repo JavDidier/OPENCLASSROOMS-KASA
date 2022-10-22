@@ -1,9 +1,12 @@
+// IMPORT UTILS
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"; // pour utiliser les NavLink
 
-// STYLE
+// IMPORT STYLE
 import "./Navigation.css";
 
+
+// IMPORT NAVIGATION
 function Navigation() {
   return (
     <nav className="div-navigation">

@@ -1,14 +1,15 @@
+// IMPORT UTILS
 import React from 'react';
 
 // IMPORT COMPONENTS
 import Navigation from './Navigation/Navigation.js';
-import LogoHeader from './Logo/LogoHeader.js';
+import LogoHeader from './LogoHeader/LogoHeader.js';
 
-// STYLE
+// IMPORT STYLE
 import './Header.css';
 
 
-// Function header
+// COMPONENT HEADER
 function Header() {
     return (
         <header>

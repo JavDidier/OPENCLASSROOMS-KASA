@@ -1,9 +1,12 @@
+// IMPORT UTILS
 import React from 'react';
 import { useState } from 'react';
 
-// STYLE
+// IMPORT STYLE
 import './SlideShow.css';
 
+
+// COMPONENT SLIDESHOW
 function SlideShow( { imageSlider } ) {
 
     // Hook useState 

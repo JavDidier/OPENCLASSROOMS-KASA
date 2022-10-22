@@ -1,8 +1,11 @@
+// IMPORT UTILS
 import React from 'react';
 
-// STYLE
+// IMPORT STYLE
 import '../Tag/Tag.css';
 
+
+// COMPONENT TAG
 const Tag = ({props}) => {
     return (
         <span className='tag-btn'>

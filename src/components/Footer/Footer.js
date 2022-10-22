@@ -1,14 +1,19 @@
+// IMPORT UTILS
 import React from 'react';
-import logoFooter from './logoFooter.svg';
 
-// STYLE
+// IMPORT IMAGE LOGO
+import LogoFooter from './LogoFooter/LogoFooter.js';
+
+// IMPORT STYLE
 import './Footer.css';
 
+
+// COMPONENT FOOTER
 function Footer() {
 
     return (
         <footer>
-            <img src={logoFooter} alt="Logo Kasa" />
+            <LogoFooter />
             <p>© 2020 Kasa. All rights reserved</p>
         </footer>
     );

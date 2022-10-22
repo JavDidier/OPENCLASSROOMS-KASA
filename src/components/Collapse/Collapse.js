@@ -1,24 +1,27 @@
+// IMPORT UTILS
 import React from "react";
 
-// STYLE
+// IMPORT STYLE
 import "./Collapse.css";
 
-// IMG BASE
+// IMPORT IMAGE COLLAPSE
 import collapseDown from "./CollapseDown.png";
 
+
+// COMPONENT COLLAPSE
 const Collapse = (props) => {
   const [isCollapsed, setIsCollapsed] = React.useState(true);
 
   return (
     <div className={"container-collapse " + props.className}>
-      {/* <div className={`container-collapse ${props.className}`}> */}
+      {/* équivalent à <div className={`container-collapse ${props.className}`}> */}
 
       <button className="collapse-btn">
         <div
           className="collapse-div "
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
-          {isCollapsed ? true : false} {props.textBtn}
+          {isCollapsed ? true : false} {props.titleCollapse}
           <span
             className={`icon-collapse ${
               isCollapsed ? "collapsed" : "expanded"

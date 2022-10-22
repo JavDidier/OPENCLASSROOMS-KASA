@@ -10,10 +10,11 @@ import Rating           from '../../Rating/Rating.js';
 import SlideShow        from '../../SlideShow/SlideShow.js';
 import Error            from '../Error/Error.js';
 
-// STYLE
+// IMPORT STYLE
 import './Housing.css';
 
-// COMPONENT PRODUCT
+
+// COMPONENT HOUSING
 function Housing() {
     let { id } = useParams();
     let detailsLogement = logements.find((logement) => (logement.id === id)); // Récupérer les données du logement à afficher
@@ -53,8 +54,8 @@ function Housing() {
                 </div>
 
                 <div className="collapse-product">
-                    <Collapse className="test" textBtn={"Description"} children={detailsLogement.description}/>
-                    <Collapse className="test" textBtn={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
+                    <Collapse className="test" titleCollapse={"Description"} children={detailsLogement.description}/>
+                    <Collapse className="test" titleCollapse={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
                 </div>
             </div>
         );

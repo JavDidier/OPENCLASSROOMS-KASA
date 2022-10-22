@@ -1,11 +1,15 @@
+// IMPORT UTILS
 import React from 'react';
 
-import BannerHome from '../../Banner/BannerHome/BannerHome.js';
-import Thumbs from '../../componentsGenerique/Thumbs/Thumbs.js';
+// IMPORT COMPONENTS
+import BannerHome   from '../../Banner/BannerHome/BannerHome.js';
+import Thumbs       from '../../componentsGenerique/Thumbs/Thumbs.js';
 
-// STYLE
+// IMPORT STYLE
 import './Home.css';
 
+
+// COMPONENT HOME
 function Home() {
     return (
         <div className="home-container">

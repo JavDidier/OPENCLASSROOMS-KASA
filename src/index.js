@@ -1,11 +1,11 @@
-// UTILS
+// IMPORT UTILS
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-// COMPONENTS 
+// IMPORT COMPONENTS 
 import App from './components/App.js';
 
-// STYLE 
+// IMPORT STYLE 
 import './index.css';
 
 // ROOT
