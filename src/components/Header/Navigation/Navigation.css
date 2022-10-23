@@ -4,9 +4,10 @@
     list-style: none;
     text-decoration: none;
     height: 34px;
+    align-items: center;
 }
 
-.div-navigation a:first-child {
+.div-navigation li:first-child {
     margin-right: 57px;
 }
 
@@ -17,16 +18,11 @@
     color: #FF6060;
 }
 
-.div-navigation li {
-    transition: 0.2s;
-    cursor: pointer;
+.div-navigation a:hover {
+    color: #fd3333;
 }
 
-.div-navigation li:hover {
-    transition: 0.2s;
-    cursor: pointer;
-}
-
+/* NAV-ACTIVE */
 .nav-active {
     position: relative;
 }
@@ -53,7 +49,7 @@
 
 
 /* MEDIA QUERIES SMALL */
-/* @media all and (min-width: 375px) and (max-width: 600px) {
+ @media all and (min-width: 375px) and (max-width: 600px) {
 
     .div-navigation {
         display: flex;
@@ -77,5 +73,5 @@
         font-size: 12px;
         text-transform: uppercase; 
     }
-} */
+}
 

@@ -1,10 +1,12 @@
-.product-container {
+/* CONTAINER-HOUSING */
+.container-housing {
     margin: 0 auto;
     max-width: 1240px;
     width: 100%;
-    margin-top: -43px;
+    margin-top: -20px;
 }
 
+/* ROOT POUR GÉRER LA HAUTEUR DE LA PAGE ET L'EMPLACEMENT DU FOOTER TODO */
 #root {
     position: relative;
     min-height: 100vh;
@@ -27,7 +29,7 @@
 }
 
 .city {
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 }
 
 /* COLLAPSE PRODUCT */
@@ -38,11 +40,6 @@
     align-items: flex-start;
 }
 
-.right-details {
-    float: right;
-}
-
-
 .container-infos {
     display: flex;
     flex-direction: row;
@@ -50,22 +47,29 @@
     justify-content: space-between;
     align-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container-owner {
     display: flex;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
     flex-wrap: nowrap;
-    
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    margin-top: -10px;
 }
+
+/* OWNER INFO*/
 .owner-name {
     color: #FF6060; 
     font-size: 18px;
     width: 93px;
     height: 52px;
-    margin: 0;
+    text-align: right;
+    margin: 0 10px 0 0;
 }
 
 .owner-picture {

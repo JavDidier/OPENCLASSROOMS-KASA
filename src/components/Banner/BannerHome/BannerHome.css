@@ -55,25 +55,27 @@
         margin: 1px;
         text-align: left;
         font-size: 24px;
-        width: 100%;
+        width: 90%;
         margin: 0 0 0 16px;
     }
 
     /* OVERLAY */
     .bannerHome-overlay {
-        width: 100%;
+        width: 90%;
         height: 97%;
         border-radius: 10px;
+        margin: 0 auto;
     }
 
     .div-bannerHome-image {
-        width: 100%;
+        width: 90%;
         min-width: 335px;
+        margin: 0 auto;
     }
 
     .div-bannerHome-image img {
         max-width: 1240px;
-        width: 100%;
+        width: 90%;
         text-align: left;
         border-radius: 10px;
         height: 16vh;

@@ -26,7 +26,7 @@ function Housing() {
         let imageSlider = detailsLogement.pictures;
 
         return (
-            <div className="product-container">
+            <div className="container-housing">
                 <SlideShow imageSlider={imageSlider}/>
 
 
@@ -54,8 +54,8 @@ function Housing() {
                 </div>
 
                 <div className="collapse-product">
-                    <Collapse className="test" titleCollapse={"Description"} children={detailsLogement.description}/>
-                    <Collapse className="test" titleCollapse={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
+                    <Collapse className="collapse-housing" titleCollapse={"Description"} children={detailsLogement.description}/>
+                    <Collapse className="collapse-housing" titleCollapse={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
                 </div>
             </div>
         );

@@ -31,7 +31,6 @@ function SlideShow( { imageSlider } ) {
                 oldIndex = (imageSlider.length-1);
             } else {
                 oldIndex = index - 1;
-                console.log("passe dans la boucle"); 
             }
             return oldIndex;
         })
@@ -48,8 +47,8 @@ function SlideShow( { imageSlider } ) {
         return (
             <div className="slider">
                 <img src={imageSlider[index]} alt="Logement disponible"/> 
-                <button id="precedent" onClick={previousSlide}>{"<"}</button>
-                <button id="suivant" onClick={nextSlide}>{">"}</button>
+                <button id="previous" onClick={previousSlide}>{"<"}</button>
+                <button id="next" onClick={nextSlide}>{">"}</button>
                 <span className="countImage">{index + 1 + "/" + (imageSlider.length)}</span>
             </div>
         )

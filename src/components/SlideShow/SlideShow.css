@@ -9,31 +9,32 @@
     text-align: center;
 }
 
-#precedent,
-#suivant {
+#previous,
+#next {
     cursor: pointer;
     transition: opacity 0.3s ease;
     position: absolute;
     font-size: 100px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0);
-    padding: 10px;
+    margin: 20px;
+    padding: 5px;
     border: none;
 }
 
-#precedent {
+#previous {
     left: 0;
 }
 
-#suivant {
+#next {
     right: 0;
 }
 
-#precedent:hover {
+#previous:hover {
     opacity: 0.5;
 
 }
-#suivant:hover {
+#next:hover {
     opacity: 0.5;
 }
 

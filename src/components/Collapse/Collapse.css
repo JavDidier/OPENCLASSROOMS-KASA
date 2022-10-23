@@ -6,7 +6,7 @@
     border-radius: 5px;
     border: none;
     color: #FFF;
-    margin: 30px auto;
+    margin: 33px auto;
     margin-bottom: 0;
     font-size: 24px;
     font-weight: 500;
@@ -43,7 +43,7 @@
     background-color: #F7F7F7;
     color: #FF6060;
     border-radius: 0 0 5px 5px;
-    padding: 36px 18px 18px 18px;
+    padding: 36px 27px 18px 18px;
     line-height: 34px;
     font-size: 24px;
     text-align: left;
@@ -61,27 +61,33 @@
   }
 
 
-  .test {
+  .collapse-housing {
     width: 582px;
-    min-height: 249px;
+    min-height: 200px;
   }
 
-  .test p {
+  .collapse-housing p {
     height: 249px!important;
     width: 550px!important;
     padding-top: 40px;
     padding-left: 20px!important;
     padding-bottom: 53px!important;
     padding-right: 12px!important;
-    font-size: 18px!important;
     font-weight: 400;
-
   }
 
-  .test p li {
+  .collapse-housing p li {
     list-style: none;;
   }
 
-  .test button {
+  .collapse-housing .collapse-btn {
     min-height: 52px;
+    font-size: 18px;
+  }
+
+  .collapse-housing .collapse-content.expanded p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 40px;
+    line-height: 26px;
   }
