@@ -30,3 +30,36 @@
 .linkErrorToHome:hover {
     text-decoration: none;
 }
+
+.return-line-text-error {
+    display: none;
+}
+
+
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 375px) and (max-width: 1239px) {
+
+    .container-error {
+        text-align: center;
+        width: 100%;
+        margin-top: 175px;
+    }
+
+    .container-error .title-error {
+        font-size: 96px;
+    }
+
+    .container-error .text-error {
+        width: 80%;
+        margin: 10px auto;
+        font-size: 18px;
+    }
+    .container-error .return-line-text-error {
+        display: initial;
+    }
+    .container-error .linkErrorToHome {
+        font-size: 14px;
+        margin-top: 133px;
+    }
+}
+
