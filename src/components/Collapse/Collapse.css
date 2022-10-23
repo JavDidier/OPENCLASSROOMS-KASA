@@ -91,3 +91,34 @@
     padding-top: 40px;
     line-height: 26px;
   }
+
+
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 375px) and (max-width: 1239px) {
+
+  .about-container .collapse-btn {
+    margin-top: 20px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .about-container .icon-collapse {
+    width: 15px;
+    height: 15px;
+  }
+
+  .about-container .icon-collapse img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .about-container .collapse-content.expanded p {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+    padding: 17px 9px;
+  }
+
+}
+  

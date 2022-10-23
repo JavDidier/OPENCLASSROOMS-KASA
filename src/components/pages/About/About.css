@@ -4,3 +4,15 @@
         width: 100%;
         padding-top: 4px;
 }
+
+
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 375px) and (max-width: 1239px) {
+
+        .about-container {
+                width: 90%;
+                margin-top: -3px;
+                padding: 0;
+        }
+}
+

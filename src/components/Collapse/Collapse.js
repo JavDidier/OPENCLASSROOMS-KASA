@@ -13,8 +13,8 @@ const Collapse = (props) => {
   const [isCollapsed, setIsCollapsed] = React.useState(true);
 
   return (
-    <div className={"container-collapse " + props.className}>
-      {/* équivalent à <div className={`container-collapse ${props.className}`}> */}
+    <div className={"container-collapse "}>
+      {/* équivalent à <div className={`container-collapse`}> */}
 
       <button className="collapse-btn">
         <div
