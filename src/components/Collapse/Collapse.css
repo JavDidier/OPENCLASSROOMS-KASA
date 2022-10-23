@@ -61,31 +61,22 @@
   }
 
 
-  .collapse-housing {
+  .container-housing .container-collapse .collapse-btn {
     width: 582px;
-    min-height: 200px;
-  }
-
-  .collapse-housing p {
-    height: 249px!important;
-    width: 550px!important;
-    padding-top: 40px;
-    padding-left: 20px!important;
-    padding-bottom: 53px!important;
-    padding-right: 12px!important;
-    font-weight: 400;
-  }
-
-  .collapse-housing p li {
-    list-style: none;;
-  }
-
-  .collapse-housing .collapse-btn {
     min-height: 52px;
     font-size: 18px;
+
   }
 
-  .collapse-housing .collapse-content.expanded p {
+  .container-housing p li {
+    list-style: none;
+  }
+
+  .container-housing .collapse-content {
+    width: 582px;
+  }
+
+  .container-housing .collapse-content.expanded p {
     font-weight: 400;
     font-size: 18px;
     padding-top: 40px;
@@ -119,6 +110,8 @@
     font-weight: 400;
     padding: 17px 9px;
   }
+
+  
 
 }
   
