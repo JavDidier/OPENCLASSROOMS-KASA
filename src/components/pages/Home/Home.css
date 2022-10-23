@@ -6,9 +6,10 @@
 }
 
 /* MEDIA QUERIES SMALL */
-@media all and (min-width: 375px) and (max-width: 600px) {
+@media all and (min-width: 375px) and (max-width: 1240px) {
 
     .home-container {
-        min-width: 335px;
+        width: 90%;
+        padding: 0;
     }
 }

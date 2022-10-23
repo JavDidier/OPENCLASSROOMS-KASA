@@ -64,12 +64,31 @@
 
 
 /* MEDIA QUERIES MEDIUM */
-@media all and (min-width: 375px) and (max-width: 1239px) {
+@media all and (min-width: 375px) and (max-width: 1240px) {
 
     .div-thumbs {
         justify-content: center;
-        padding: 56px 25px;
-        gap: 50px;
+        padding: 0;
+        background: #FFF;
+        column-gap: 40px;
+        row-gap: 20px;
+    }
+    .div-thumbs img {
+        height: 40vh;
+    }
+
+    .div-thumbs a {
+        height: 40vh;
+    }
+
+    /* OVERLAY */
+    .thumb-overlay {
+        height: 40vh;
+    }
+
+    /* TITRE VIGNETTE */
+    .thumb-title {
+        top: 75%;
     }
 }
 

@@ -17,14 +17,16 @@ body {
   margin: 0 auto;
 }
 
+
+
 /* ==================================== */
 /* == SMALL 350 > 750PX == */
-/* @media all and (min-width: 350px) and (max-width: 750px) { */
+ @media all and (min-width: 375px) and (max-width: 1240px) {
 
   /* == ROOT SMALL == */
-  /* #root {
-    width: 90%;
+  #root {
+    width: 100%;
+    height: 100vh;
     margin: 0 auto;
   }
-
-} */
+}

@@ -16,3 +16,15 @@ footer img {
 footer p {
     margin-bottom: 29px;
 }
+
+/* MEDIA QUERIES MEDIUM */
+@media all and (min-width: 375px) and (max-width: 1240px) {
+    footer {
+        margin-top: 22px;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin: 12px auto 0 auto;
+    }
+}

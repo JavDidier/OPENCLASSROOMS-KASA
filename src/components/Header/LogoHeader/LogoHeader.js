@@ -9,3 +9,6 @@ import logoHeader from './logoHeader.svg';
 export default function LogoHeader() { 
     return (<img src={logoHeader} alt="Logo Kasa" />);
 };
+
+
+

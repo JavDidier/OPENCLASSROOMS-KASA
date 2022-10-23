@@ -17,7 +17,7 @@ function BannerHome() {
                 <div className="bannerHome-overlay"></div>
             </div>
             <div className="div-bannerHome-text">
-                <p>Chez vous, partout et ailleurs</p>
+                <p>Chez vous,<br className='return-line-text-bannerHome'/>partout et ailleurs</p>
             </div>
         </div>
     );

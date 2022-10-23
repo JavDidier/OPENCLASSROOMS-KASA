@@ -13,20 +13,19 @@ header {
 
 
 
-/* MEDIA QUERIES SMALL */
-@media all and (min-width: 375px) and (max-width: 600px) {
+/* ==================================== */
+/* == SMALL 375 > 1240PX == */
+@media all and (min-width: 375px) and (max-width: 1240px) {
 
-    #root {
-        margin: 0 auto;
-        text-align: center;
-    }
     header {
         width: 90%;
-        height: 47px;
-        margin: 20px 0 16px 0; 
+        min-width: 335px;
+        margin: 20px auto;
     }
+
+    /* LOGO */
     header img {
         width: 145px;
         height: 47px;
     }
-}
+  }
