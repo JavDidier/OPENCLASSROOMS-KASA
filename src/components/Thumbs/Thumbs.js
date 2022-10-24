@@ -12,9 +12,8 @@ import './Thumbs.css';
 function Thumbs() {
     return (
         <div className="div-thumbs">
-
             {logements.map((logement, index) => (
-                <a className="thumb" href={"/housing/" + logement.id} key={`${logement}-${index}`}>
+                <a className="thumb" href={"/housing/" + logement.id} key={logement.id}>
                     <span className="thumb-img">
                         <img src={logement.cover} alt={"Logement disponible" + logement.title}/>
                     </span>

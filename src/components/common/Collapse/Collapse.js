@@ -7,7 +7,6 @@ import "./Collapse.css";
 // IMPORT IMAGE COLLAPSE
 import collapseDown from "./CollapseDown.png";
 
-
 // COMPONENT COLLAPSE
 const Collapse = (props) => {
   const [isCollapsed, setIsCollapsed] = React.useState(true);
@@ -21,13 +20,13 @@ const Collapse = (props) => {
           className="collapse-div "
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
-          {isCollapsed ? true : false} {props.titleCollapse}
+          {props.titleCollapse}
           <span
             className={`icon-collapse ${
               isCollapsed ? "collapsed" : "expanded"
             }`}
           >
-            {<img src={collapseDown} alt="" />}
+            {<img src={collapseDown} alt="arrow-collapse" />}
           </span>
         </div>
       </button>

@@ -6,8 +6,8 @@ import React from 'react';
 // IMPORT STYLE
 import './BannerAbout.css';
 
-// COMPONENT BannerHome
-function BannerHome() {
+// COMPONENT BanneAbout
+function BannerAbout() {
     return (
         <div className="div-bannerAbout">
             <div className="div-bannerAbout-image">
@@ -18,4 +18,4 @@ function BannerHome() {
     );
 };
 
-export default BannerHome;
+export default BannerAbout;

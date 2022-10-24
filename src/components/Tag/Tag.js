@@ -5,11 +5,11 @@ import React from 'react';
 import '../Tag/Tag.css';
 
 
-// COMPONENT TAG
-const Tag = ({props}) => {
+// COMPONENT TAG / -- > props
+const Tag = ({tagTitle}) => {
     return (
         <span className='tag-btn'>
-            <p>{props}</p>
+            <p>{tagTitle}</p>
         </span>
     );
 };

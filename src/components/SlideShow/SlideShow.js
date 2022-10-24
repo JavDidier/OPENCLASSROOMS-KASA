@@ -15,7 +15,7 @@ function SlideShow( { imageSlider } ) {
     // Appuyer sur (suivant)
     function nextSlide() { 
         setIndex((oldIndex) => {
-            if(index === imageSlider.length-1) {
+            if(oldIndex === imageSlider.length-1) {
                 oldIndex = 0;
             } else {
                 oldIndex = oldIndex + 1; 
@@ -27,10 +27,10 @@ function SlideShow( { imageSlider } ) {
     // Appuyer sur (précédent)
     function previousSlide() {
         setIndex((oldIndex) => {
-            if(index <= 0) {
+            if(oldIndex <= 0) {
                 oldIndex = (imageSlider.length-1);
             } else {
-                oldIndex = index - 1;
+                oldIndex = oldIndex - 1;
             }
             return oldIndex;
         })

@@ -6,6 +6,6 @@ import logoFooter from './logoFooter.svg';
 
 
 // COMPONENT LogoFooter
-export default function LogoHeader() { 
+export default function LogoFooter() { 
     return (<img src={logoFooter} alt="Logo Kasa" />);
 };
