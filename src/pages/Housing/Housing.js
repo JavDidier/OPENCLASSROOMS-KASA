@@ -3,11 +3,11 @@ import React from 'react';
 import { useParams } from "react-router-dom";
 
 // IMPORT COMPONENTS
-import { logements }    from '../../../assets/data/logements.js';
-import Collapse         from '../../Collapse/Collapse.js';
-import Tag              from '../../componentsGenerique/Tag/Tag.js';
-import Rating           from '../../Rating/Rating.js';
-import SlideShow        from '../../SlideShow/SlideShow.js';
+import { logements }    from '../../asset/logements.js';
+import Collapse         from '../../components/common/Collapse/Collapse.js';
+import Tag              from '../../components/Tag/Tag.js';
+import Rating           from '../../components/Rating/Rating.js';
+import SlideShow        from '../../components/SlideShow/SlideShow.js';
 import Error            from '../Error/Error.js';
 
 // IMPORT STYLE

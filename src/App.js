@@ -3,12 +3,12 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 // IMPORT COMPONENTS
-import Header   from './Header/Header.js';
+import Header   from './layout/Header/Header.js';
 import Home     from './pages/Home/Home.js';
 import About    from './pages/About/About.js';
-import Error    from './pages/Error/Error.js';
 import Housing  from './pages/Housing/Housing.js';
-import Footer   from './Footer/Footer.js';
+import Error    from './pages/Error/Error.js';
+import Footer   from './layout/Footer/Footer.js';
 
 
 // COMPONENT APP

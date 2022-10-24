@@ -2,8 +2,8 @@
 import React from 'react';
 
 // IMPORT COMPONENTS
-import BannerAbout from '../../Banner/BannerAbout/BannerAbout.js';
-import Collapse from '../../Collapse/Collapse';
+import BannerAbout from '../../components/Banner/BannerAbout/BannerAbout.js';
+import Collapse from '../../components/common/Collapse/Collapse';
 
 // IMPORT STYLE
 import './About.css';

@@ -2,7 +2,7 @@
 import React from 'react';
 
 // IMPORT COMPONENTS
-import { logements } from '../../../assets/data/logements.js';
+import { logements } from '../../asset/logements.js';
 
 // IMPORT STYLE
 import './Thumbs.css';
