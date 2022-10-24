@@ -18,7 +18,7 @@ footer p {
 }
 
 /* MEDIA QUERIES MEDIUM */
-@media all and (min-width: 375px) and (max-width: 1240px) {
+@media all and (min-width: 300px) and (max-width: 1239px) {
     footer {
         margin-top: 22px;
     }

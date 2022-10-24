@@ -64,7 +64,7 @@
 
 
 /* MEDIA QUERIES MEDIUM */
-@media all and (min-width: 375px) and (max-width: 1240px) {
+@media all and (min-width: 300px) and (max-width: 1239px) {
 
     .div-thumbs {
         justify-content: center;
@@ -95,7 +95,7 @@
 
     /* TITRE VIGNETTE */
     .thumb-title {
-        top: 75%;
+        top: 70%;
     }
 
 

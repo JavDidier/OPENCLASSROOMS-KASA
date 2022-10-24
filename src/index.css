@@ -20,8 +20,8 @@ body {
 
 
 /* ==================================== */
-/* == SMALL 350 > 750PX == */
- @media all and (min-width: 375px) and (max-width: 1240px) {
+/* == SMALL 300 > 750PX == */
+ @media all and (min-width: 300px) and (max-width: 1239px) {
 
   /* == ROOT SMALL == */
   #root {

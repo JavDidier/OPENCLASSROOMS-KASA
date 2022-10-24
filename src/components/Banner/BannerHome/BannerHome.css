@@ -47,7 +47,7 @@
 
 
 /* MEDIA QUERIES SMALL */
-@media all and (min-width: 375px) and (max-width: 1240px) {
+@media all and (min-width: 300px) and (max-width: 1239px) {
 
     .div-bannerHome {
         width: 100%;
@@ -62,7 +62,7 @@
         text-align: left;
         font-size: 24px;
         width: 90%;
-        margin: 0 0 0 16px;
+        margin: 0;
     }
 
     .div-bannerHome-text p {
@@ -75,6 +75,7 @@
         height: 16vh;
         border-radius: 10px;
         margin: 0 auto;
+        min-height: 112px;
     }
 
     .div-bannerHome-image {
@@ -89,6 +90,7 @@
         text-align: left;
         border-radius: 10px;
         height: 16vh;
+        min-height: 112px;
     }
 
     /* Retour à ligne du texte de la bannière */

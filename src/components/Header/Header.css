@@ -14,8 +14,8 @@ header {
 
 
 /* ==================================== */
-/* == SMALL 375 > 1240PX == */
-@media all and (min-width: 375px) and (max-width: 1240px) {
+/* == SMALL 300 > 1239PX == */
+@media all and (min-width: 300px) and (max-width: 1239px) {
 
     header {
         width: 90%;

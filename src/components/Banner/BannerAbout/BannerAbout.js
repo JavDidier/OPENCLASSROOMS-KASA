@@ -2,7 +2,6 @@
 import React from 'react';
 
 // IMPORT IMAGE BANNER ABOUT
-import bannerAboutImg from './bannerAbout.png';
 
 // IMPORT STYLE
 import './BannerAbout.css';
@@ -12,7 +11,7 @@ function BannerHome() {
     return (
         <div className="div-bannerAbout">
             <div className="div-bannerAbout-image">
-                <img src={bannerAboutImg} alt="Bannière à propos Kasa" />
+                <div className="importBanner"></div>
             </div>
             <div className="bannerAbout-overlay"></div>
         </div>

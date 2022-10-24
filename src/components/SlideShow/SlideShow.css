@@ -54,3 +54,142 @@
     height: 100%;
     border-radius: 25px;
 }
+
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 300px) and (max-width: 1239px) {
+
+    .container-housing .slider {
+        height: 45.8vh;
+    }
+    .container-housing .slider img {
+        border-radius: 10px;
+    }
+    .container-housing .countImage {
+        display: none;
+    }
+
+    #previous, #next {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    }
+
+    .container-housing .container-infos {
+        flex-direction: column;
+        margin: 15px auto 0px auto;
+        padding: 0;
+        flex-wrap: nowrap;
+        align-items: normal;
+    } 
+
+    .container-housing .left-details h2 {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .container-housing .left-details p {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .container-housing .left-details .tag {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        width: 100%;
+        text-align: center;
+    }
+    .container-housing .left-details .tag .tag-btn {
+        height: 18px;
+        padding: 0 3px;
+        margin-bottom: 5px;
+        min-width: 84px;
+        min-height: 18px;
+    }
+
+    .tag .tag-btn p {
+        font-size: 10px;
+        margin-bottom: 0;
+        padding: 1px;
+    }
+
+    /* OWNER INFO */
+    .container-housing .right-details .container-owner{
+        margin-top: 0;
+        padding: 0;
+    }
+    .container-housing .right-details {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .container-housing .right-details .rating-star svg  {
+        width: 15px;
+        height: 15px;
+        
+    }
+    .container-housing .right-details .owner-name  {
+        font-size: 12px;
+        margin: 0;
+        height: auto;
+        width: 60px;
+        
+    }
+    .container-housing .right-details .owner-picture  {
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+
+
+    /* COLLAPSE HOUSING */
+    .container-housing .collapse-product {
+        width: 100%;
+        flex-direction: column;
+        margin: 15px auto;
+    }
+    .container-housing .container-collapse {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .container-housing .container-collapse .collapse-btn {
+        margin : 0 auto;
+        width: 100%;
+        min-height: 30px;
+        height: 30px;
+        padding: 1px 10px;
+        font-size: 13px;
+    }
+    .container-housing .container-collapse .collapse-btn .collapse-div  {
+        min-height: 29px;
+        height: 29px;
+    }
+
+    .container-housing .container-collapse .collapse-btn img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .container-housing .collapse-content {
+        width: 100%;
+    }
+
+    .container-housing .collapse-content.expanded p {
+        line-height: 17px;
+        font-size: 12px!important;
+        padding: 20px 5px;
+    }
+}

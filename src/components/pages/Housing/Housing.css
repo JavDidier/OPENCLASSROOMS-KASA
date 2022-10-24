@@ -80,3 +80,17 @@
 
 
 
+/* MEDIA QUERIES SMALL */
+@media all and (min-width: 300px) and (max-width: 1239px) {
+
+    .container-housing {
+        min-width: 335px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+

@@ -37,7 +37,7 @@
 
 
 /* MEDIA QUERIES SMALL */
-@media all and (min-width: 375px) and (max-width: 1239px) {
+@media all and (min-width: 300px) and (max-width: 1239px) {
 
     .container-error {
         text-align: center;
