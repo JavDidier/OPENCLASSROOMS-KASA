@@ -9,7 +9,6 @@ import LogoHeader from './LogoHeader/LogoHeader.js';
 import './Header.css';
 
 
-// COMPONENT HEADER
 function Header() {
     return (
         <header>

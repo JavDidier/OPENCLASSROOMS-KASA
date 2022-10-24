@@ -13,20 +13,8 @@ body {
 
 /* == ROOT == */
 #root {
+  position: relative;
   width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
-}
-
-
-
-/* ==================================== */
-/* == SMALL 300 > 750PX == */
- @media all and (min-width: 300px) and (max-width: 1239px) {
-
-  /* == ROOT SMALL == */
-  #root {
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-  }
 }

@@ -1,3 +1,4 @@
+/* == SCREEN > 1239 px == */
 .home-container {
     margin: 0 auto;
     max-width: 1240px;
@@ -5,9 +6,8 @@
     padding-top: 23px;
 }
 
-/* MEDIA QUERIES SMALL */
-@media all and (min-width: 300px) and (max-width: 1239px) {
-
+/* == SCREEN 0 < 1239 px == */
+@media all and (min-width: 0px) and (max-width: 1239px) {
     .home-container {
         width: 90%;
         padding: 0;

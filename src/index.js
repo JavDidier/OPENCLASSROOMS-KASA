@@ -8,6 +8,7 @@ import App from './App.js';
 // IMPORT STYLE 
 import './index.css';
 
+
 // ROOT
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

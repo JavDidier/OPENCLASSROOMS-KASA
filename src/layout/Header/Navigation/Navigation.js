@@ -6,10 +6,9 @@ import { NavLink } from "react-router-dom"; // pour utiliser les NavLink
 import "./Navigation.css";
 
 
-// IMPORT NAVIGATION
 function Navigation() {
   return (
-    <nav className="div-navigation">
+    <nav className="navigation">
       <li>
         <NavLink
           to="/home"
