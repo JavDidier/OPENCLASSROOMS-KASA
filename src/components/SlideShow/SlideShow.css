@@ -77,49 +77,7 @@
     border: none;
     }
 
-    /* CONTAINER INFOS */
-    .container-housing .container-infos {
-        flex-direction: column;
-        margin: 15px auto 0px auto;
-        padding: 0;
-        flex-wrap: nowrap;
-        align-items: normal;
-    } 
 
-    .container-housing .left-details h2 {
-        font-size: 18px;
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .container-housing .left-details p {
-        font-size: 14px;
-        width: 100%;
-        margin-bottom: 5px;
-    }
-    /* TAG */
-    .container-housing .left-details .tag {
-        justify-content: flex-start;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: flex-end;
-        width: 100%;
-        text-align: center;
-    }
-    .container-housing .left-details .tag .tag-btn {
-        height: 18px;
-        padding: 0 3px;
-        margin-bottom: 5px;
-        min-width: 84px;
-        min-height: 18px;
-    }
-
-    .tag .tag-btn p {
-        font-size: 10px;
-        margin-bottom: 0;
-        padding: 1px;
-    }
 
     /* OWNER INFO */
     .container-housing .right-details .container-owner{

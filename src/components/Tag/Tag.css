@@ -26,7 +26,28 @@
 
 /* MEDIA QUERIES SMALL */
 @media all and (min-width: 0px) and (max-width: 1239px) {
+    /* TAG */
+    .container-housing .left-details .tag {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        width: 100%;
+        text-align: center;
+    }
+    .container-housing .left-details .tag .tag-btn {
+        height: 18px;
+        padding: 0 3px;
+        margin-bottom: 5px;
+        min-width: 84px;
+        min-height: 18px;
+    }
 
-    
+    .tag .tag-btn p {
+        font-size: 10px!important;
+        margin-bottom: 0!important;
+        padding: 1px!important;
+    }
 
 }

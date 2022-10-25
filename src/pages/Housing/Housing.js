@@ -54,8 +54,12 @@ function Housing() {
                 </div>
 
                 <div className="collapse-product">
-                    <Collapse className="collapse-housing" titleCollapse={"Description"} children={detailsLogement.description}/>
-                    <Collapse className="collapse-housing" titleCollapse={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
+                    {/* considéré comme children */}
+                    <Collapse className="collapse-housing" title={"Description"}>
+                            {detailsLogement.description}
+                    </Collapse>
+                    {/* considéré comme props mais pas dans cette exemple précis (children) */}
+                    <Collapse className="collapse-housing" title={"Équipements"} children={detailsLogement.equipments.map((item) => <li key={item}>{item}</li>)}/>
                 </div>
             </div>
         );

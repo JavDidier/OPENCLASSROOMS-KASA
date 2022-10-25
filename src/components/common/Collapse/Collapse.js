@@ -1,5 +1,6 @@
 // IMPORT UTILS
 import React from "react";
+import { useState } from "react";
 
 // IMPORT STYLE
 import "./Collapse.css";
@@ -9,18 +10,16 @@ import collapseDown from "./CollapseDown.png";
 
 // COMPONENT COLLAPSE
 const Collapse = (props) => {
-  const [isCollapsed, setIsCollapsed] = React.useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(true);
 
   return (
     <div className={"container-collapse"}>
-      {/* équivalent à <div className={`container-collapse`}> */}
-
-      <button className="collapse-btn">
-        <div
-          className="collapse-div "
-          onClick={() => setIsCollapsed(!isCollapsed)}
-        >
-          {props.titleCollapse}
+      <button
+        className="collapse-btn"
+        onClick={() => setIsCollapsed((state) => !state)}
+      >
+        <div className="collapse-div">
+          {props.title}
           <span
             className={`icon-collapse ${
               isCollapsed ? "collapsed" : "expanded"

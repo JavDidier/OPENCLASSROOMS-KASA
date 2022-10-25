@@ -83,6 +83,29 @@
         width: 90%;
         margin: 0 auto;
     }
+
+        /* CONTAINER INFOS */
+        .container-housing .container-infos {
+            flex-direction: column;
+            margin: 15px auto 0px auto;
+            padding: 0;
+            flex-wrap: nowrap;
+            align-items: normal;
+        } 
+
+        /* H2 */
+        .container-housing .left-details h2 {
+            font-size: 18px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        .container-housing .left-details p {
+            font-size: 14px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+    
 }
 
 
